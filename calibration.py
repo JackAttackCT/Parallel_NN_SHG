@@ -71,7 +71,6 @@ def plot_polynomial_fit(x_orig, y_orig, x_fit, y_fit, order):
     plt.xlabel('wavelenght')
     plt.ylabel('power')
     plt.legend()
-    plt.grid(True)
     plt.show()
 
 

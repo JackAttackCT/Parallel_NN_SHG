@@ -123,7 +123,6 @@ class OSA:
         plt.xlabel('Wavelength (nm)')
         plt.ylabel('Power (W)')
         plt.title('OSA Trace')
-        plt.grid(True)
         plt.show()
 
     def send_command(self, command):
@@ -176,7 +175,7 @@ class OSA:
         plt.xlabel('Wavelength (nm)')
         plt.ylabel('Power (W)')
         plt.title(f'{name}')
-        plt.grid(True)
+        #plt.grid(True)
         plt.savefig(f'./{folder}/{name}.png')  # Save the figure
         plt.close()
         # plt.show()  # Comment out if you don't want to display the plot
