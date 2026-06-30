@@ -10,6 +10,7 @@ data/
 data2/
 data3/
 traces/
+figures/
 power_measurements
 trace_data
 ./data_runs.zip
